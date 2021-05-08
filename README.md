@@ -22,10 +22,10 @@ For any question related to the paper or the scripts, please contact j.williams[
 Please find our samples [here](https://rhoposit.github.io/ssw11/index.html).
 
 # Requirements
-Please install the environment in project.yml before using the scripts.
+Please install the environment in project2.yml before using the scripts.
 ```
-conda env create -f project.yml
-conda activate project
+conda env create -f project2.yml
+conda activate project2
 ```
 
 
