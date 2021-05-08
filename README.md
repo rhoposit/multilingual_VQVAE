@@ -3,7 +3,7 @@ This is a Pytorch implementation of VQVAE mentioned in [our paper](https://arxiv
 
 We examine the performance of monolingual and multilingual VQVAE on four tasks: copy-synthesis, voice transformation, linguistic code-switching, and content-based masking. 
 
-![Framework of Dual-Encoder VQVAE with one-hot global language condition](https://github.com/rhoposit/multilingual_VQVAE-private/blob/main/framework.png)
+![Framework of Dual-Encoder VQVAE with one-hot global language condition](https://github.com/rhoposit/multilingual_VQVAE/blob/main/framework.png)
 
 In brief, we have done:
 
@@ -45,7 +45,7 @@ Or you can use python3 train.py -m [model type]. The -m option can be used to te
 - 'sys5_lang': train system 5 but use a one-hot language global condition (for multilingual)
 
 
-Please modify sampling rate and other parameters in [config.py](https://github.com/rhoposit/multilingual_VQVAE-private/blob/main/config.py) before training.
+Please modify sampling rate and other parameters in [config.py](https://github.com/rhoposit/multilingual_VQVAE/blob/main/config.py) before training.
 
 
 # Pre-trained models
